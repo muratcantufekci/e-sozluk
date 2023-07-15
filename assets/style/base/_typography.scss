@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+
+//
+// Default Typography Settings
+//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: $title-bottom-space;
+}
+
+p {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: $paragraph-bottom-space;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: $list-bottom-space;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  line-height: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
