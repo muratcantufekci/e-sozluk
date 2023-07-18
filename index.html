@@ -51,10 +51,11 @@
             <div class="c-dictionary__content">
                 <h2>Türkçe</h2>
                 <form class="c-dictionary__searchbar">
-                    <input type="text" />
+                    <input type="text" id="js-search" autocomplete="off"/>
                     <button type="submit">
                         <i class="fa fa-search"></i>
                     </button>
+                    <div class="c-dictionary__searchbar-results"></div>
                 </form>
                 <div class="c-dictionary__language">
                     <a href="javascript:;" class="c-dictionary__language-item">
@@ -74,7 +75,7 @@
         <p>© 2020 Turksoz. Барлық құқықтар сақталған.</p>
     </footer>
     
-    <script src="assets/scripts/main.js"></script>
+    <script type="module" src="assets/scripts/main.js"></script>
 </body>
 
 </html>
